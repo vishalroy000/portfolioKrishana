@@ -1,0 +1,86 @@
+*{margin: 0px; padding: 0px; box-sizing: border-box;}
+
+.container{
+    margin: 0; height: 100vh; display: flex;
+    overflow: hidden; position: relative; justify-content: center;
+}
+.nav{
+    position: absolute; margin-top: 15px;
+    height: 7%; width: 100%; 
+    background-image: linear-gradient(to right, #fbc500, #f9ce47, #fee8a1, #f8f4e5, #f7f5f0, #ffffff);   
+}
+
+.logo{
+    height: 100px; width: 100px; float: left;
+    margin-left: 20px; margin-top: -20px; 
+    background-image: url('../image/logo.png'); 
+}
+a{
+    height: 100%; width: 120px; float: left; margin-left: 20px;
+    text-align: center; justify-content: center; 
+    align-items: center; display: flex; 
+    color: black;transition: all 0.5s;
+    font-weight: bold; text-decoration: none;
+}
+a:hover{background: black; color: white; transform: scale(1.2);}
+
+.main{
+    position: relative; 
+    height: auto; width: 100%; margin-top: 100px;
+    display: flex; justify-content: center;
+    position: relative; 
+}
+
+.abt{
+    margin-top: 10px; position: absolute;
+    height: 170px; width: 80%; border: 2px solid rgba(255, 196, 0, 0.959);;
+    color: black; display: flex; 
+    font-size: 100px; font-weight: bold;
+    justify-content: center; font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+}
+p{color: rgba(255, 196, 0, 0.959); font-weight: bold;}
+
+.describe{
+    position: absolute;
+    margin-top: 180px;
+    height: 80px; width: 80%; font-size: 30px; 
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    color: black; display: flex;   
+}
+.wid{
+    position: absolute; width: 80%; height: 100px;
+    margin-top: 250px;
+    text-align: justify;
+}
+.lik{
+    position: absolute; width: 80%; height: auto;
+    margin-top: 350px; 
+}
+.col1{
+    margin: 0px 25px;
+    width: 20%; height: 280px; float: left; 
+    border: 2px solid rgba(255, 196, 0, 0.959); border-radius: 10px;
+    transition: all 0.5s; box-shadow: 0px 8px 10px black;
+}
+.idlogo{
+    height: 50px; width: 100%;
+    align-items: center; justify-content: center; display: flex;
+}
+.picture{
+    height: 100px; width: 100%;
+}
+.dec{
+    height: 130px; width: 100%; overflow: hidden;
+    padding: 10px; background-color: rgba(255, 196, 0, 0.959);
+    border-radius: 10px; padding-bottom: 2px;
+   
+}
+img{
+    height: 40px; width: 40px;
+}
+.col1:hover{transform: scale(1.2);}
+
+
+
